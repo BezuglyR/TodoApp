@@ -18,8 +18,14 @@ TodoApp use **python 3.11** version for project
 
 5. install dependencies `pip install -r requirements.txt`
 
-6. start project web server `uvicorn main:app --reload`
+6. create environment variables for pasgresql server, see config.py
 
-7. visit http://127.0.0.1:8000
+7. start project web server `uvicorn main:app --reload`
+
+8. visit http://127.0.0.1:8000
+
+### Deployed test app
+
+Test app was deployed on Render for test view [TodoApp](https://todoapp-n7y6.onrender.com/)
 
    
