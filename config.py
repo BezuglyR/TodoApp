@@ -1,6 +1,15 @@
-import os
+from pydantic_settings import BaseSettings
 
-DB_DBNAME = os.getenv("DB_DBNAME")
-DB_HOST = os.getenv("DB_HOST")
-DB_USER = os.getenv("DB_USER")
-DB_PASSWORD = os.getenv("DB_PASSWORD")
+
+class Settings(BaseSettings):
+    DB_DBNAME: str
+    DB_HOST: str
+    DB_PORT: int
+    DB_USER: str
+    DB_PASSWORD: str
+
+    class Config:
+        env_file = ".env"
+
+
+settings = Settings()
