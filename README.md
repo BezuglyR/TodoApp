@@ -18,7 +18,7 @@ TodoApp use **python 3.7** version for project
 
 5. install dependencies `pip install -r requirements.txt`
 
-6. create environment variables for pasgresql server, see config.py
+6. create .env file in root directory with DB_DBNAME, DB_HOST, DB_PORT, DB_PASSWORD, DB_USER variables with your postgres server values
 
 7. start project web server `uvicorn main:app --reload`
 
