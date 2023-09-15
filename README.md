@@ -10,7 +10,7 @@ TodoApp use **python 3.7** version for project
 
 1. clone project from github to local folder
 
-2. download and install [python 3.11.5](https://www.python.org/ftp/python/3.7.10/python-3.7.10-amd64.exe)
+2. download and install [python 3.7.10](https://www.python.org/ftp/python/3.7.10/python-3.7.10-amd64.exe)
 
 3. change directory to local folder with cloned project
 
