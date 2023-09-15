@@ -4,13 +4,13 @@ Application to manage users todos
 
 ### Python version
 
-TodoApp use **python 3.11** version for project
+TodoApp use **python 3.7** version for project
 
 ### Install and run
 
 1. clone project from github to local folder
 
-2. download and install [python 3.11.5](https://www.python.org/ftp/python/3.11.5/python-3.11.5-amd64.exe)
+2. download and install [python 3.11.5](https://www.python.org/ftp/python/3.7.10/python-3.7.10-amd64.exe)
 
 3. change directory to local folder with cloned project
 
@@ -26,6 +26,6 @@ TodoApp use **python 3.11** version for project
 
 ### Deployed test app
 
-Test app was deployed on Render for test view [TodoApp](https://todoapp-n7y6.onrender.com/)
+Test app was deployed on Render for test view [TodoApp](https://todoapp-iyp9.onrender.com)
 
    
